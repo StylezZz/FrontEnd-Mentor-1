@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Figtree-Italic-VariableFont_wght';
+    src: url(assets/fonts/Figtree-Italic-VariableFont_wght.ttf)format('truetype');
+}
+
+@font-face {
+    font-family: 'Figtree-VariableFont_wght';
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf)format('truetype');
+}
+
+@font-face {
+    font-family: 'Figtree-ExtraBold';
+    src: url(assets/fonts/static/Figtree-ExtraBold.ttf)format('truetype');
+}
+
+@font-face {
+    font-family: 'Figtree-SemiBold';
+    src: url(assets/fonts/static/Figtree-SemiBold.ttf)format('truetype');
+}
+
+body{
+    background-color:  hsl(47, 88%, 63%);
+    font-family: 'Figtree-VariableFont_wght';
+}
+
+.card{
+    /*Colocar todo el contenido al medio*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*Tamaño de la tarjeta*/
+    margin-top: 125px;
+}
+
+.content{
+    background-color: hsl(0, 0%, 100%);
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 400px;
+    height: 600px;
+    box-shadow: 10px 10px 0px 5px #000000;
+}
+
+.logo{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    border-radius: 5%;
+    height: 215px;
+}
+
+.card-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: justify;
+    margin-left: 25px;
+}
+
+.card-info h2{
+    background-color: hsl(47, 88%, 63%);
+    font-family: 'Figtree-ExtraBold';
+    font-weight: 800;
+    font-size: 18px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.card-info .date{
+    font-family: 'Figtree-SemiBold';
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.card-info h1{
+    font-family: 'Figtree-ExtraBold';
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.card-info .text{
+    color: hsl(0, 0%, 50%);
+    font-family: 'Figtree-VariableFont_wght';
+    font-weight: 600;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+.user-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: justify;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.user-info img{
+    border-radius: 50%;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.user-info p{
+    font-family: 'Figtree-ExtraBold';
+    font-size: 15px;
+    margin-bottom: 0px;
+    font-weight: 800;
+}
